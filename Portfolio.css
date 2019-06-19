@@ -1,0 +1,327 @@
+@-ms-viewport{
+    width: device-width;
+}
+body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+/*--------Header CSS-------*/
+#header
+{
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/computer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header a{
+    color: #ffffff;
+}
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.user-box img
+{
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid #6caed5;
+}
+.user-box h1
+{
+    font-size: x-large;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+.user-box p
+{
+    color: #fff;
+}
+
+/*About*/
+.about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.rounded
+{
+    height: 450px;
+}
+.nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar
+{
+    background-color: #000;
+}
+.navbar-brand img
+{
+    height: 50px;
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fcfff2;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+.nav-link
+{
+    color: #ffffff;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+    background: #000 !important;
+}
+/*Resume*/
+.resume
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+.resume h3
+{
+    margin-top: 50px;
+}
+.timeline
+{
+    list-style-type: none;
+    position: relative;
+}
+.timeline:before
+{
+    content: '';
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 430px;
+    z-index: 1;
+}
+.timeline li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: #fff;
+}
+.timeline li h4
+{
+    background-color: #000;
+    padding: 5px 0 5px 20px;
+    color: #fff;
+    font-size: 15px;
+}
+.timeline li h4 span
+{
+    font-weight: bold;
+    color: #ccc;
+}
+.timeline li:before
+{
+    content: '';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+/*Services*/
+.services
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sevices h1
+{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+.sevices-box
+
+{
+    padding-top: 25px;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.services-box .fa
+{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.services-box span
+{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.services-box p
+{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #040504;
+}
+.services-box:hover
+{
+    background: #6caed5;
+    color: #fff;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 1s;
+}
+
+/*Contact*/
+.contact
+{
+    padding-top: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("img/computer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact .row
+{
+    padding: 30px ;
+    font-size: 22px;
+}
+.contact .col-md-4 .fa
+{
+    padding: 10px;
+    font-size: 40px;
+}
+.contact .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.contact .btn:focus
+{
+    box-shadow: none!important;
+}
+.footer
+{
+    background: #000;
+    height: 50px;
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 10px;
+}
+/* Sidebar */
+
+
+
+
+/* OFFERED Services */
+
+.course
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.course h1
+{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+.courses
+{
+    padding-top: 25px;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background: transparent;
+}
+.course-box .fa
+{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.course-box span
+{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.course-box p
+{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #040504;
+}
+
+.course .btn
+{
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.course-box:hover
+{
+    background: #6caed5;
+    color: #fff;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 1s;
+}
+
+/*Footer*/
+footer{
+    padding: 10px 25px 10px 25px;
+    color:#ffffff;
+    background-color: rgba(7, 2, 1, 0.99);
+    text-align: center;
+}
