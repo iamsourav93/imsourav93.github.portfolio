@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    background-color: #dcdcdc;
+}
+header nav > ul > li{
+    display: inline-block;
+    padding: 25px;
+font-weight: bold;
+}
+header nav > ul >li a:first-child{
+color: #e84c3d;
+}
+span {
+    color: #000000;
+}
+section[id=menu] nav > ul > li {
+    display: inline-block;
+    padding: 25px;
+    background: center;
+    font-weight: bold;
+}
+section[id=menu] nav > ul > li:first-child{
+    background-color: #405163;
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #e84c3d;
+}
+section[id=menu]  ul, section[id=menu] ul,li{
+    background-color: #e84c3d;
+}
+section[id=menu] ul li:hover {
+    background-color: #405163;
+}
+ul.nav li{
+    background-color:#e84c3d;
+}
